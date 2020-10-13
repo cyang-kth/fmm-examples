@@ -10,7 +10,14 @@ This repository contains a collection of fmm examples in Jupyter-notebook.
 - [folium](https://github.com/python-visualization/folium): More fluent dual map visualization
 - [shapely](https://github.com/Toblerity/Shapely): Geometry conversion
 - [osmnx](https://github.com/gboeing/osmnx): Download road network from OpenStreetMap into Shapefile format
-- Tested on Ubuntu 14.04 and Python 2.7 and Python 3, which is only used in 1-download_network.ipynb
+- [bqplot](https://github.com/bqplot/bqplot): 2-D plotting library for Project Jupyter
+- [Pandas]():
+- [Numpy]():
+- [Geopandas]():
+
+- Tested on Ubuntu 14.04 and Python 2.7 and Python 3 (Python 3 is only used in 1-download_network.ipynb to download network data) 
+
+A dataset is provided at [data.tar.gz](data/stockholm/data.tar.gz). 
 
 #### List of examples
 
@@ -27,6 +34,10 @@ Map match to OSM road network by drawing
 Explore the factor of candidate size k, search radius and GPS error
 
 ![fmm_explore](img/fmm_explore.gif)
+
+Explore detailed map matching information
+
+![fmm_detail](img/fmm_detail.gif)
 
 Explore with dual map
 
